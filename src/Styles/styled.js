@@ -151,6 +151,20 @@ export const FotosDiv = styled.div`
     }
   }
 
+
+  @media (max-width: 394px){
+
+    .img-1{
+        position: relative;
+      left: 50px;
+    }
+
+    .img-3{
+        position: relative;
+        right: 50px;
+    }
+  }
+
   
 `
 
