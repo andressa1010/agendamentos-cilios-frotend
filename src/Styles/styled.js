@@ -125,8 +125,33 @@ export const FotosDiv = styled.div`
         bottom: 40px;
     }
 
-   
+    @media (max-width: 768px) {
+    .imagens-cilios {
+      flex-direction: column;
+      align-items: center;
+    }
 
+    img {
+      height: 200px;
+      width: 200px;
+    }
+
+    .img-1, .img-3 {
+      bottom: 0; /* Zera o ajuste vertical para evitar cortes em telas pequenas */
+    }
+
+    .img-1{
+      position: relative;
+      left: 40px;
+    }
+
+    .img-3{
+      position: relative;
+      right: 40px;
+    }
+  }
+
+  
 `
 
 export const TituloAgendamentos = styled.div`
