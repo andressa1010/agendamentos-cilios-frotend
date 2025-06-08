@@ -73,7 +73,7 @@ const Home = () => {
                 procedimentos.map((procedimento)=>(
                    <div key={procedimento.id} className="procedimento">
                      <h2> {procedimento.nome} </h2>
-                     <img src={`http://localhost:3001${procedimento.imagem}`} alt={procedimento.nome}/>
+                     <img src={`https://agendamentos-cilios.onrender.com${procedimento.imagem}`} alt={procedimento.nome}/>
                      <p> {procedimento.preco}   </p>
                      <p> {procedimento.descricao}   </p>
                      <Link className="link"

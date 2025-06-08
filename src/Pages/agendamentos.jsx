@@ -67,7 +67,7 @@ export default function Agendamento() {
         <TituloFormulario>
           <h2>Você está agendando: {procedimento.nome}</h2>
           <img
-            src={`http://localhost:3001${procedimento.imagem}`}
+            src={`https://agendamentos-cilios.onrender.com${procedimento.imagem}`}
             alt={procedimento.nome}
             style={{
               width: "250px",
