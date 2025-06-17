@@ -99,6 +99,24 @@ p{
     font-style: normal;
 }
 
+@media (max-width: 432px){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    p{
+       max-width: 400px;
+      font-size: 30px;
+    }
+}
+
+@media (max-width: 394px){
+  p{
+     max-width: 350px;
+
+  }
+}
+
 `
 
 export const FotosDiv = styled.div`
@@ -137,7 +155,7 @@ export const FotosDiv = styled.div`
     }
 
     .img-1, .img-3 {
-      bottom: 0; /* Zera o ajuste vertical para evitar cortes em telas pequenas */
+      bottom: 0;
     }
 
     .img-1{
@@ -177,6 +195,15 @@ export const TituloAgendamentos = styled.div`
         font-size: 40px;
      }
 
+     @media (max-width: 432px){
+        display: flex;
+        justify-content: center;
+
+        h2{
+          text-align: center;
+          max-width: 300px;
+        }
+     }
 
 `
 
