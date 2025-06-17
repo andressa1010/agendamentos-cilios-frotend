@@ -202,6 +202,7 @@ export const TituloAgendamentos = styled.div`
         h2{
           text-align: center;
           max-width: 300px;
+          font-size: 25px;
         }
      }
 
