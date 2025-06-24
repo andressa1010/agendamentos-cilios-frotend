@@ -215,6 +215,23 @@ export const ContainerFormulario = styled.div`
   padding: 30px;
   border-radius: 16px;
   box-shadow: 0 0 10px #ccc;
+
+
+  @media (max-width: 432px){
+     width: 400px;
+  }
+
+  @media (max-width: 394px){
+     width: 350px;
+  }
+
+  @media (max-width: 360px){
+    width: 320px;
+  }
+
+  @media (max-width: 412px){
+    width: 350px;
+  }
 `;
 
 export const Titulo = styled.h1`
